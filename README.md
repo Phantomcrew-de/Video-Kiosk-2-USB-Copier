@@ -10,7 +10,7 @@ This project is a **self-service video export kiosk system** that allows users t
 * 💾 **Export selected files** to a USB drive
 * 🔊 **Auditory confirmation** (sound) when transfer is complete
 * 🧯 **Auto-eject USB stick** after successful copy
-* 🪟 **Progress bar** and real-time status updates
+* 🚧 **Progress bar** and real-time status updates
 * 🛡️ Error handling for missing files and device detection
 
 ---
