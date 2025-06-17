@@ -15,6 +15,23 @@ This project is a **self-service video export kiosk system** that allows users t
 
 ---
 
+
+### 🖼️ Interface Preview
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="screenshots/screenshot_video_2_usb_kiosk_001.JPG" width="370px"><br>
+      <strong>Interface (Chromium)</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="screenshots/screenshot_video_2_usb_kiosk_002.JPG" width="370px"><br>
+      <strong>Interface (Chromium)</strong>
+    </td>
+  </tr>
+</table>
+![Preview]()
+
 ### 🛠️ How It Works
 
 #### 1. `dwvid.html`
