@@ -17,7 +17,7 @@ This project is a **self-service video export kiosk system** that allows users t
 
 
 ### 🖼️ Interface Preview
-[Try Demo: Video-Kiosk-2-USB-Copier](https://phantomcrew-de.github.io/Video-Kiosk-2-USB-Copier/Frontend/dwvid.html)
+[Try Demo: Video-Kiosk-2-USB-Copier](https://phantomcrew-de.github.io/Video-Kiosk-to-USB-Copier/Frontend/dwvid.html)
 <table>
   <tr>
     <td align="center" width="25%">
