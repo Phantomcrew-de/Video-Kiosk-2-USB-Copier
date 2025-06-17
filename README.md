@@ -30,7 +30,6 @@ This project is a **self-service video export kiosk system** that allows users t
     </td>
   </tr>
 </table>
-![Preview]()
 
 ### 🛠️ How It Works
 
