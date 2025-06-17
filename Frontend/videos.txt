@@ -1,0 +1,15 @@
+
+P:\scripte\Kiosk\Kiosk>echo Flinny_demo_clip_003.mp4 
+Flinny_demo_clip_003.mp4
+
+P:\scripte\Kiosk\Kiosk>echo Flinny_demo_clip_004.mp4 
+Flinny_demo_clip_004.mp4
+
+P:\scripte\Kiosk\Kiosk>echo Flinny_demo_clip_005.mp4 
+Flinny_demo_clip_005.mp4
+
+P:\scripte\Kiosk\Kiosk>echo Flinny_demo_clip_001.mp4 
+Flinny_demo_clip_001.mp4
+
+P:\scripte\Kiosk\Kiosk>echo Flinny_demo_clip_002.mp4 
+Flinny_demo_clip_002.mp4
