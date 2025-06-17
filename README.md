@@ -54,17 +54,48 @@ A Bash script that:
 
 ---
 
+### 📡 Server Integration
+
+Your videos are managed remotely, the two scripts in the `Server/` folder provide **automatic or manual synchronization** of video files from a network source (e.g. an SMB share or mounted NAS).
+
+#### `Videos2kiosk.sh`
+
+A **manual sync script** that copies new video files from a server directory (source) to the local kiosk directory `/home/kiosk/Kiosk`. Ideal for one-time updates or remote management.
+
+#### `Videos2kiosk_auto.sh`
+
+Same logic as above but designed for **automated syncing**, e.g., when used in a scheduled task (`cron`, `systemd timer`). It ensures that the kiosk is always up to date with the server content — without user interaction.
+
+---
+
+### 🕒 Example Cronjob (for auto sync)
+
+To run `Videos2kiosk_auto.sh` every hour:
+
+```bash
+0 * * * * /home/kiosk/Server/Videos2kiosk_auto.sh >> /home/kiosk/Server/sync.log 2>&1
+```
+
+This ensures your kiosk always has the latest content from the server.
+
+
+---
+
 ### 📂 Folder Structure
+
 
 ```
 /home/kiosk/
-├── Kiosk/                  # Folder with all video files
-├── Kiosk/dwvid.html        # Kiosk HTML interface
-├── success.wav             # Sound played after success
-├── selected_videos.txt     # Auto-generated list of selected files
-└── copy_videos.log         # Log file for all copy operations
+├── Kiosk/                        # Local video folder shown in the HTML UI
+├── Kiosk/dwvid.html              # Kiosk HTML interface
+├── success.wav                   # Sound notification after successful copy
+├── selected_videos.txt           # Auto-generated list of selected videos
+├── copy_videos.log               # Log file for copy operations
+├── start_kiosk_and_copy_2.sh     # Main script to run the kiosk and handle USB copy
+└── Server/
+    ├── Videos2kiosk.sh           # Manual sync script for updating video files from a server
+    └── Videos2kiosk_auto.sh      # Auto-sync version for scheduled use (e.g., via cron)
 ```
-
 ---
 
 ### 🚀 Getting Started
