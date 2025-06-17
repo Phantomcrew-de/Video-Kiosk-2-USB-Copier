@@ -83,7 +83,7 @@ A Bash script that:
 
 * Museums and media exhibitions
 * Public interactive terminals
-* Studios allowing guests to take demo footage
+* Studios allowing guests to take footage
 * Educational settings with offline video sharing
   
 ---
